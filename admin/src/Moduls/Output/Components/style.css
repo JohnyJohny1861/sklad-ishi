@@ -1,0 +1,60 @@
+.Product {
+   background-color: #F5F5F5;
+   border-radius: 3px;
+   padding: 5px 10px;
+   display: block;
+   box-sizing: border-box;
+}
+
+.Product ul li section {
+   width: 100%;
+   margin-bottom: -3px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+ul li span button[type="button"] {
+   margin-bottom: 20px;
+}
+
+.Product input[name*="products"],
+.Product input[name*="amount"] {
+   font-size: 10px;
+   width: 99%;
+   box-sizing: border-box;
+   padding: 7px 5px;
+}
+
+
+.Product label + ul {
+   margin-top: 25px;
+}
+.Product ul li:not(:last-child) {
+   margin-bottom: 18px;
+   border-bottom: none !important;
+}
+
+.Product input[name*="products"] {
+   border: 1px solid rgb(136, 1, 1);
+}
+.Product input[name*="amount"] {
+   border: 1px solid #0045ad;
+}
+
+.Product > div {
+   width: 100%;
+   margin-top: 3px;
+}
+
+.Product > div div {
+   padding: 0;
+}
+
+.TotalPrice {
+   margin-bottom: 15px;
+}
+
+.TotalPrice_amount {
+   letter-spacing: 1px;
+   margin: 0;
+}
